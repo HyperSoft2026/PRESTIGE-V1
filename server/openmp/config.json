@@ -5,8 +5,6 @@
   "website": "https://app-dd2460e9-58f4-46ef-bb43-9f4d6c2275dd.cleverapps.io/",
   "network": {
     "port": 7777,
-    "max_players": 50,
-    "enable_query": true,
     "allow_037_clients": true
   },
   "game": {
@@ -34,5 +32,7 @@
     "log_connection_messages": true,
     "log_deaths": true,
     "log_queries": false
-  }
+  },
+  "max_players": 50,
+  "enable_query": true
 }
