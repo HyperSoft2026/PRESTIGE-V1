@@ -1,0 +1,38 @@
+{
+  "name": "PRESTIGE V1 | Roleplay",
+  "language": "Arabic / English",
+  "announce": true,
+  "website": "https://app-dd2460e9-58f4-46ef-bb43-9f4d6c2275dd.cleverapps.io/",
+  "network": {
+    "port": 7777,
+    "max_players": 50,
+    "enable_query": true,
+    "allow_037_clients": true
+  },
+  "game": {
+    "mode": "PRESTIGE Roleplay",
+    "map": "San Andreas",
+    "time": 12,
+    "weather": 10,
+    "use_entry_exit_markers": true
+  },
+  "pawn": {
+    "main_scripts": [
+      "prestige 1"
+    ],
+    "side_scripts": [],
+    "legacy_plugins": []
+  },
+  "rcon": {
+    "enable": false,
+    "allow_teleport": false,
+    "password": "CHANGE_THIS_BEFORE_ENABLING_RCON"
+  },
+  "logging": {
+    "enable": true,
+    "log_chat": true,
+    "log_connection_messages": true,
+    "log_deaths": true,
+    "log_queries": false
+  }
+}
