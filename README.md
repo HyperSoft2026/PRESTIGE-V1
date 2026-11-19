@@ -46,6 +46,12 @@ make run
 
 The service listens on `http://127.0.0.1:8080` by default.
 
+## Game server starter
+
+The initial open.mp server configuration and Pawn gamemode source are in `server/openmp/`. This first build supports a basic connection/spawn flow and `/help`; it is not yet a complete roleplay mode. See `server/openmp/README.md` for setup and hosting requirements.
+
+The game server requires inbound UDP on port `7777`. Clever Cloud TCP redirections are TCP-only and cannot serve as the normal SA-MP/open.mp game endpoint. Keep the current Clever Cloud app for the web/API and MySQL service, and run open.mp on a UDP-capable game host.
+
 ## Project status
 
-**PRESTIGE V1 — Foundation stage.** Gameplay systems, player accounts, roleplay features, and the actual SA-MP/open.mp game mode still need to be implemented and tested.
+**PRESTIGE V1 — Foundation stage.** The web/API and MySQL health check are working. An initial open.mp gamemode source and configuration are now present, but the game runtime has not been installed or started on a public UDP host. Player accounts, persistent gameplay systems, and the full roleplay mode remain to be implemented and tested.
